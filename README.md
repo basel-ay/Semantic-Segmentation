@@ -4,9 +4,9 @@
 
 Segmentation can be viewed as pixel classification, whereas for each pixel of image we must predict its class (background being one of the classes). There are two main segmentation algorithms:
 
-* Semantic segmentation only tells the pixel class, and does not make a distinction between different objects of the same class.
+* `emantic segmentation` only tells the pixel class, and does not make a distinction between different objects of the same class.
 
-* Instance segmentation divides classes into different instances.
+* `Instance segmentation` divides classes into different instances.
 
 For instance segmentation, these sheep are different objects, but for semantic segmentation all sheep are represented by one class.
 
@@ -14,9 +14,9 @@ For instance segmentation, these sheep are different objects, but for semantic s
 
 There are different neural architectures for segmentation, but they all have the same structure. In a way, it is similar to the autoencoder you learned about previously, but instead of deconstructing the original image, our goal is to deconstruct a mask. Thus, a segmentation network has the following parts:
 
-* Encoder extracts features from input image
+* `Encoder` extracts features from input image
 
-* Decoder transforms those features into the mask image, with the same size and number of channels corresponding to the number of classes.
+* `Decoder` transforms those features into the mask image, with the same size and number of channels corresponding to the number of classes.
 
 ![image](https://user-images.githubusercontent.com/64821137/186511482-343e1dfb-cfbf-4862-adc6-0968ac1d7450.png)
 
