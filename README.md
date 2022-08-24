@@ -4,7 +4,7 @@
 
 Segmentation can be viewed as pixel classification, whereas for each pixel of image we must predict its class (background being one of the classes). There are two main segmentation algorithms:
 
-* `emantic segmentation` only tells the pixel class, and does not make a distinction between different objects of the same class.
+* `Semantic segmentation` only tells the pixel class, and does not make a distinction between different objects of the same class.
 
 * `Instance segmentation` divides classes into different instances.
 
